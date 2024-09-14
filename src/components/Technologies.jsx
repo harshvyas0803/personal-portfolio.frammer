@@ -4,7 +4,10 @@ import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
 import { RiReactjsLine, RiTailwindCssFill, RiNextjsLine } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa6";
 import { SiGreensock, SiC, SiFramer } from "react-icons/si";
-import { motion } from 'framer-motion';
+import { SiShadcnui } from "react-icons/si";
+import { motion } from 'framer-motion'; 
+import { SiRedux } from "react-icons/si";
+
 
 const iconVariants = (duration) => ({
   initial: { y: -10, rotate: 0, scale: 1 },
@@ -231,6 +234,39 @@ const Technologies = () => {
           </motion.span>
         </motion.div>
 
+
+
+
+      {/* Redux */}
+<motion.div 
+  variants={iconVariants(8.5)}
+  initial="initial"
+  animate="animate"
+  className='rounded-2xl border-4 border-neutral-800 p-6 flex flex-col items-center justify-center'
+  style={{ minWidth: '100px', minHeight: '100px' }}
+>
+  <SiRedux className='text-7xl text-purple-600' />
+  <motion.span
+    className="text-lg font-bold text-purple-600 mt-2"
+    initial={{ opacity: 0, y: -10 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.5 }}
+  >
+    Redux
+  </motion.span>
+</motion.div>
+
+
+
+
+
+
+
+
+
+
+
+
         {/* Framer Motion */}
         <motion.div 
           variants={iconVariants(7)}
@@ -287,6 +323,28 @@ const Technologies = () => {
             Node.js
           </motion.span>
         </motion.div>
+
+
+{/* Shadcn UI */}
+<motion.div 
+  variants={iconVariants(8.5)}
+  initial="initial"
+  animate="animate"
+  className='rounded-2xl border-4 border-neutral-800 p-6 flex flex-col items-center justify-center'
+  style={{ minWidth: '100px', minHeight: '100px' }}
+>
+  <SiShadcnui className='text-7xl text-blue-500' />
+  <motion.span
+    className="text-lg font-bold text-purple-600 mt-2"
+    initial={{ opacity: 0, y: -10 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.5 }}
+  >
+    Shadcn UI
+  </motion.span>
+</motion.div>
+
+
 
         {/* Firebase */}
         <motion.div 

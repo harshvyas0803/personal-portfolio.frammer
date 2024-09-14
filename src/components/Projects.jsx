@@ -11,7 +11,7 @@ const Projects = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        Projects
+        My Best
       </motion.h1>
 
       <div className="flex flex-wrap justify-center gap-8">
