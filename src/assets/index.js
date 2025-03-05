@@ -1,6 +1,5 @@
 import project1 from "../assets/projects/project-1.png";
- import Devmind from "../assets/projects/Devmind.png"
- import  Hub from "../assets/projects/Hub-scrnsht.png"
+  import  Hub from "../assets/projects/Hub-scrnsht.png"
 import tactix from "../assets/projects/Tactix.png"
 import taskvy from '../assets/projects/Taskvy.jpg'
 
@@ -75,14 +74,7 @@ export const PROJECTS = [
     link: "https://lazarev-delta.vercel.app/"
   },
 
-  {
-    title: "DevMind",
-    image: Devmind,
-    description:
-      "DevMind is a cutting-edge platform for developers, featuring the latest trends, tutorials, and insights. Built with Next.js and pnpm for performance, it offers smooth animations with Framer Motion and AI-assisted workflows with Shadcn UI.",
-    technologies: ["Next.js", "pnpm", "Framer Motion", "Tailwind CSS", "Shadcn", "AI-assisted Workflow"],
-    link: "https://devmind-t2fc-hiug8oyxp-harsh-vyas-projects.vercel.app"
-  },
+   
 
   
 ];
