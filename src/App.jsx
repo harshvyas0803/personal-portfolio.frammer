@@ -16,7 +16,7 @@ import Experience from './components/Experience';
     <div className='overflow-x-hidden text-black selection:bg-gray-950 selection:text-white min-h-screen'>
     <div className='fixed top-0 left-0 -z-10 h-full w-full bg-white [background:radial-gradient(125%_125%_at_50%_10%,#e7e2e2d9_40%,#63e_100%)]'></div>
 
-    <div className='container mx-auto px-8'>  
+    <div className='container mx-auto  px-8'>  
       <Navbar />
        <Hero /> 
        <Technologies></Technologies> 

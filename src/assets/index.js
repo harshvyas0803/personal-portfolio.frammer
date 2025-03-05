@@ -9,6 +9,10 @@ import taskvy from '../assets/projects/Taskvy.jpg'
 
 export const HERO_CONTENT = `I am a third-year Computer Science Engineering student and a passionate full-stack developer specializing in the MERN stack and React Native. With expertise in front-end (React.js), back-end (Node.js, MongoDB), and real-time communication (WebSockets), I build scalable web and mobile applications. I thrive in solving complex problems, optimizing user experiences, and continuously learning new technologies to stay ahead in the field.`;
 
+
+
+
+
 export const ABOUT_TEXT = `I am a dedicated and versatile developer with a strong passion for creating efficient and user-friendly web applications. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, through numerous hands-on projects. My journey in web development began with a deep curiosity for how things work, and I have continuously strived to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and working on personal projects to further my skills.`;
 
 export const EXPERIENCES = [

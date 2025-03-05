@@ -33,7 +33,7 @@ const Contact = () => {
         </motion.a>
         <br />
         <motion.a
-          href="https://www.linkedin.com/in/harsh-vyas-348846263/"
+          href="https://www.linkedin.com/in/harsh-kumar-vyas-348846263/"
           className='border-b'
           initial={{ color: "#333" }}
           whileHover={{ color: "#1d4ed8", borderBottomColor: "#1d4ed8", scale: 1.05 }}

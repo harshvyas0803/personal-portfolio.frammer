@@ -45,9 +45,11 @@ const Navbar = () => {
       </motion.div>
       <div className='m-8 flex items-center justify-center gap-5 text-4xl'>
         {[
-          { icon: <FaLinkedin />, delay: 0.1, link: "https://www.linkedin.com/in/harsh-vyas-348846263/" },
+          { icon: <FaLinkedin />, delay: 0.1, link: "https://www.linkedin.com/in/harsh-kumar-vyas-348846263/" },
           { icon: <FaGithub />, delay: 0.3, link: "https://github.com/harshvyas0803" },
         ].map((item, index) => (
+
+          
           <motion.div
             key={index}
             initial={{ opacity: 0, y: 20 }}
